@@ -232,11 +232,10 @@ x */ .message-box {
   width: 30px;
   height: 30px;
 }
-/* Media Queries */
-@media (max-width: 768px) {
+@media (max-width: 868px) {
   /* Styles for tablet devices */
   body {
-    height: auto; /* Remove fixed height for better responsiveness */
+    height: auto;
   }
 
   .background {
@@ -269,18 +268,19 @@ x */ .message-box {
   .container5,
   .container10 {
     width: 100%;
-    padding: 0 20px; /* Add padding for better spacing */
-    margin-top: 20%;
+    padding: 0 20px;
+    margin-top: 20px;
   }
 
   .container5 {
     border-left: none;
-    border-top: 2px solid #ccc; /* Add a horizontal line */
-    padding-top: 20px; /* Add padding for better spacing */
+    padding-top: 20px;
+    padding-left: 0;
   }
 
   .container10 {
     margin-bottom: 20px;
+    margin-right: 0;
   }
 
   .container3 {
@@ -289,8 +289,9 @@ x */ .message-box {
   }
 
   #contact2 {
-    width: 100%;
-    height: auto;
+    width: 410px;
+    height: 120px;
+    margin-right: 5px;
   }
 
   .container6 {
@@ -301,7 +302,7 @@ x */ .message-box {
   .footer {
     padding: 10px 0;
     font-size: 12px;
-    margin-top: 10%;
+    margin-top: 0;
   }
 
   .footer div {
@@ -313,7 +314,6 @@ x */ .message-box {
     height: 15px;
   }
 }
-
 @media (max-width: 480px) {
   /* Styles for mobile devices */
   h1 {
@@ -323,6 +323,16 @@ x */ .message-box {
   .background img.image-icon {
     width: 50px;
     height: 35px;
+  }
+
+  .container5,
+  .container10 {
+    padding: 0 10px;
+  }
+
+  .container5 {
+    padding-top: 10px;
+    margin-top: 20px;
   }
 
   .container10 img {
@@ -349,5 +359,8 @@ x */ .message-box {
   .social-links img {
     width: 20px;
     height: 20px;
+  }
+  #contact2 {
+    display: none;
   }
 }

@@ -162,17 +162,36 @@ img {
 .latest-news h3 {
   font-size: 24px;
   margin-bottom: 10px;
-  color: black;
+  color: white;
+  background-color: #1a2650;
+  border: 2px solid white;
+  padding: 5px 10px;
 }
 
 .latest-news img {
-  width: 100px;
-  height: 80px;
+  width: 220px;
+  height: 180px;
   margin: 0 10px;
+  border-radius: 5px;
 }
 
 .latest-news p {
   margin-top: 10px;
+  color: white;
+  background-color: #1a2650;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.latest-news p a {
+  color: white; /* Custom color for the link */
+}
+
+.latest-news p a:hover,
+.latest-news p a:active,
+.latest-news p a:visited {
+  color: white; /* Change text color on hover, active, and visited */
 }
 
 .container4 {
@@ -330,7 +349,6 @@ img {
     font-size: 30px;
     width: auto;
     text-align: center;
-            margin-top: 50px;
   }
 
   .btn {
@@ -401,7 +419,6 @@ img {
   /* Styles for mobile devices */
   .unlocking-the-future-container {
     font-size: 24px;
-           
   }
 
   .image-icon {
